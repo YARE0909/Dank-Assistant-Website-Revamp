@@ -25,7 +25,7 @@
 }
 
 body {
-  @apply font-Bit bg-primary text-text;
+  @apply font-Bit bg-primary text-text overflow-auto;
 }
 
 @layer utilities {
@@ -35,7 +35,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 }
 
 ::-webkit-scrollbar-thumb {

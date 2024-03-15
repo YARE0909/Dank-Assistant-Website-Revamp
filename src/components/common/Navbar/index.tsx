@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
 const funnyGreetings = [
@@ -27,6 +28,7 @@ const funnyGreetings = [
 
 const Index = () => {
   const [greeting, setGreeting] = useState("");
+  const router = useRouter();
 
   useEffect(() => {
     setGreeting(
@@ -35,7 +37,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="w-full h-20 border-b border-b-gray-500 flex justify-between items-center p-4 lg:px-8 fixed top-0 z-50">
+    <div className="w-full h-20 bg-primary border-b border-b-gray-500 flex justify-between items-center p-4 lg:px-8 fixed top-0 z-50">
       <div className="flex items-center gap-5">
         <Image
           src="/assets/DankAssistant.png"
@@ -43,16 +45,25 @@ const Index = () => {
           height={50}
           alt="Dank Assistant Logo"
         />
-        <h1 className="font-Bit">{greeting}</h1>
+        {router.pathname === "/" ? (
+          <h1 className="font-Bit">{greeting}</h1>
+        ) : (
+          <h1 className="font-Honk text-3xl">
+            {router.pathname.substring(1).toUpperCase()}
+          </h1>
+        )}
       </div>
       <div className="lg:flex gap-5 hidden">
         <Link href={"/"} className="text-xl font-bold text-highlight font-Honk">
           Home
         </Link>
-        <Link href={"/"} className="text-xl font-bold text-highlight font-Honk">
+        <Link
+          href={"/commands"}
+          className="text-xl font-bold text-highlight font-Honk"
+        >
           Commands
         </Link>
-        <Link href={"/"} className="text-xl font-bold text-highlight font-Honk">
+        <Link href={"/faqs"} className="text-xl font-bold text-highlight font-Honk">
           FAQs
         </Link>
         <a

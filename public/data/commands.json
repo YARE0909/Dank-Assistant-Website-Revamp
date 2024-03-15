@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Guide",
+    "description": "Check out the Dank Memer multipliers",
+    "syntax": "/guide [input]"
+  },
+  {
+    "name": "Itemcalc",
+    "description": "Calculation of item donation values made easy",
+    "syntax": "/itemcalc [input]"
+  },
+  {
+    "name": "Pricelist",
+    "description": "Check the price list of Dank items",
+    "syntax": "/pricelist"
+  },
+  {
+    "name": "Trending",
+    "description": "Checkout today's trending game",
+    "syntax": "/trending"
+  },
+  {
+    "name": "Calc",
+    "description": "Requirement calculator for prestige, omega and daily",
+    "syntax": "/calc [input]"
+  },
+  {
+    "name": "Alert",
+    "description": "Read any outstanding/important information about the bot!",
+    "syntax": "/alert"
+  },
+  {
+    "name": "Credits",
+    "description": "Shows the awesome people who helped Dank Assistant out",
+    "syntax": "/credits"
+  },
+  {
+    "name": "Gdonate",
+    "description": "Donate to the giveaways!",
+    "syntax": "/gdonate [time prize winners]"
+  },
+  {
+    "name": "Info",
+    "description": "Shows information about Dank Assistant",
+    "syntax": "/info"
+  },
+  {
+    "name": "Invite",
+    "description": "Invite dank assistant to your server!",
+    "syntax": "/invite"
+  },
+  {
+    "name": "Patreon",
+    "description": "Shows the link to our donation page on Patreon",
+    "syntax": "/patreon"
+  },
+  {
+    "name": "Premium",
+    "description": "Check premium status, or get a free trial",
+    "syntax": "/premium check"
+  },
+  {
+    "name": "Settings",
+    "description": "Customise your settings",
+    "syntax": "/settings server"
+  },
+  {
+    "name": "Vote",
+    "description": "Vote for Dank Assistant and it's partners!",
+    "syntax": "/vote"
+  },
+  {
+    "name": "Reminder",
+    "description": "Reminders for Dank Memer Commands!",
+    "syntax": "/reminder [name]"
+  }
+]
