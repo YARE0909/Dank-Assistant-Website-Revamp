@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
+import MenuIcon from "remixicon-react/MenuLineIcon";
 
 const funnyGreetings = [
   "Greetings, Earthlings! Resistance is futile.",
@@ -29,6 +30,7 @@ const funnyGreetings = [
 const Index = () => {
   const [greeting, setGreeting] = useState("");
   const router = useRouter();
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     setGreeting(
@@ -91,6 +93,55 @@ const Index = () => {
         >
           Invite Bot
         </a>
+      </div>
+      <div className="lg:hidden block">
+        <div onClick={() => setShowMenu(!showMenu)}>
+          <MenuIcon className="text-3xl" />
+        </div>
+        {showMenu && (
+          <div className="absolute top-20 right-0 bg-primary p-5 w-full flex flex-col border-b border-b-gray-500">
+            <Link
+              href={"/"}
+              className="text-3xl font-bold text-highlight font-Honk"
+            >
+              Home
+            </Link>
+            <Link
+              href={"/features"}
+              className="text-3xl font-bold text-highlight font-Honk"
+            >
+              Features
+            </Link>
+            <Link
+              href={"/commands"}
+              className="text-3xl font-bold text-highlight font-Honk"
+            >
+              Commands
+            </Link>
+            <Link
+              href={"/faqs"}
+              className="text-3xl font-bold text-highlight font-Honk"
+            >
+              FAQs
+            </Link>
+            <a
+              href={"https://discord.com/invite/cfWrVNFhDy"}
+              target="_blank"
+              className="text-3xl font-bold text-highlight font-Honk"
+            >
+              Support Server
+            </a>
+            <a
+              href={
+                "https://discord.com/login?redirect_to=%2Foauth2%2Fauthorize%3Fclient_id%3D815564870011453480%26scope%3Dbot%2520applications.commands%26permissions%3D347200%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fdankassistant.ga%252Flanding"
+              }
+              target="_blank"
+              className="text-3xl font-bold text-highlight font-Honk"
+            >
+              Invite Bot
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );
