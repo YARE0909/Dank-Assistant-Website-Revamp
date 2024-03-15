@@ -33,16 +33,36 @@ const Index = () => {
           Your most reliable guide to the Dank Memer universe.
         </h1>
       </div>
-      <div className="flex gap-5">
-        <div className="px-4 py-1 rounded-lg flex items-center bg-[#6320EE]">
-          <Link href={"/commands"}>
+      <div className="flex gap-5 z-40">
+        <div className="px-4 py-1 rounded-lg flex items-center bg-[#5562F5]">
+          <Link href={"/commands"} className="flex items-center gap-2">
+            <Image
+              className="rounded-full"
+              src="/assets/starIcon.png"
+              alt=""
+              width={25}
+              height={20}
+            />
             <h1 className="font-Bit text-2xl">Get Started</h1>
           </Link>
         </div>
-        <div className="px-4 py-1 rounded-lg flex items-center bg-[#6320EE]">
-          <Link href={"/commands"}>
+        <div className="px-4 py-1 rounded-lg flex items-center bg-[#5562F5]">
+          <a
+            href={
+              "https://discord.com/login?redirect_to=%2Foauth2%2Fauthorize%3Fclient_id%3D815564870011453480%26scope%3Dbot%2520applications.commands%26permissions%3D347200%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fdankassistant.ga%252Flanding"
+            }
+            target="_blank"
+            className="flex items-center gap-2"
+          >
+            <Image
+              className="rounded-full"
+              src="/assets/discordIcon.png"
+              alt=""
+              width={30}
+              height={20}
+            />
             <h1 className="font-Bit text-2xl">Invite Me</h1>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
