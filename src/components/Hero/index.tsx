@@ -35,7 +35,7 @@ const Index = () => {
       </div>
       <div className="flex gap-5 z-40">
         <div className="px-4 py-1 rounded-lg flex items-center bg-[#5562F5]">
-          <Link href={"/commands"} className="flex items-center gap-2">
+          <Link href={"/features"} className="flex items-center gap-2">
             <Image
               className="rounded-full"
               src="/assets/starIcon.png"

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Command Reminders",
+    "description": "With Dank Assistant, you will be reminded exactly when your cooldown is over! Besides, we have over 30 different reminders to choose from, so you will never ever see the cooldown message from Dank Memer ever again!",
+    "url": "reminder"
+  },
+  {
+    "title": "Dank Memer Guides",
+    "description": "Ever wanted to find out how to get certain pets, or the various types of possibilities in adventure? Dank Assistant has them all, and much more!",
+    "url": "guide"
+  },
+  {
+    "title": "Calculators",
+    "description": "We offer Calculators for every aspect of Dank Memer, such as daily rewards, prestige, omega and much more!",
+    "url": "calculator"
+  },
+  {
+    "title": "Accurate Trending Game Info",
+    "description": "We are proud to announce a partnership with Dank Memer Trending Game server, ensuring that the trending game of the day is fetched quicker and more accurately than our competitors!",
+    "url": "trending"
+  },
+  {
+    "title": "Item Worth Calculator",
+    "description": "Whether you are a giveaway manager trying to calculate the value of a giveaway in a server, or you are simply trying to calculate the value of the items you want to trade, this feature is for you! Easily calculate the net worth of your items with the most updated prices available!",
+    "url": "worth"
+  },
+  {
+    "title": "Infinite Reminder Customizations!",
+    "description": "Vote for our bot and unlock custom reminder messages of your choosing!",
+    "url": "vote"
+  },
+  {
+    "title": "Server Utilities",
+    "description": "Minigames such as auto fight tourneys (coming soon) and even giveaway-donate (request) modules are bundled with the bot! These features are also highly customizable and modular in nature",
+    "url": "server"
+  },
+  {
+    "title": "NEW: currency tables!",
+    "description": "Directly approved by the dank memer development team, these tables provide a way for you to reference what happens in adventures, searches, and crimes through a simple menu!",
+    "url": "currency"
+  }
+]

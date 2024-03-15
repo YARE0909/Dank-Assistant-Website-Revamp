@@ -58,12 +58,21 @@ const Index = () => {
           Home
         </Link>
         <Link
+          href={"/features"}
+          className="text-xl font-bold text-highlight font-Honk"
+        >
+          Features
+        </Link>
+        <Link
           href={"/commands"}
           className="text-xl font-bold text-highlight font-Honk"
         >
           Commands
         </Link>
-        <Link href={"/faqs"} className="text-xl font-bold text-highlight font-Honk">
+        <Link
+          href={"/faqs"}
+          className="text-xl font-bold text-highlight font-Honk"
+        >
           FAQs
         </Link>
         <a

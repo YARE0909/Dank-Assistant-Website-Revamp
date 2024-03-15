@@ -11,10 +11,7 @@ const Index = () => {
     setCommandList(commands);
   }, []);
   return (
-    <div className="mt-20 lg:p-8 overflow-scroll">
-      {/* <div>
-        <h1 className="font-Honk text-5xl">What I can do</h1>
-      </div> */}
+    <div className="w-full h-full mt-20 lg:p-8">
       <div className="w-full h-full flex flex-wrap gap-2 justify-center">
         {commandList.map((command) => {
           return (

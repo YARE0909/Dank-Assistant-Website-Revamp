@@ -14,7 +14,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="mt-20 p-4 lg:p-8">
+    <div className="w-full h-full mt-20 p-4 lg:p-8">
       <div className="flex flex-col justify-center items-center gap-5">
         {faqsList?.map((faq) => {
           return (
