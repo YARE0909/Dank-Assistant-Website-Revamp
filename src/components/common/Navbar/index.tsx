@@ -35,7 +35,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="w-full h-20 border-b border-b-gray-500 flex justify-between items-center p-4 px-8 fixed top-0 z-50">
+    <div className="w-full h-20 border-b border-b-gray-500 flex justify-between items-center p-4 lg:px-8 fixed top-0 z-50">
       <div className="flex items-center gap-5">
         <Image
           src="/assets/DankAssistant.png"
@@ -45,7 +45,7 @@ const Index = () => {
         />
         <h1 className="font-Bit">{greeting}</h1>
       </div>
-      <div className="flex gap-5">
+      <div className="lg:flex gap-5 hidden">
         <Link href={"/"} className="text-xl font-bold text-highlight font-Honk">
           Home
         </Link>

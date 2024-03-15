@@ -25,11 +25,11 @@ const Index = () => {
           alt="Dank Assistant Logo"
         />
       </div>
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-8xl font-bold text-highlight font-Honk">
+      <div className="flex flex-col justify-center items-center text-center">
+        <h1 className="text-5xl lg:text-8xl font-bold text-highlight font-Honk">
           DANK ASSISTANT
         </h1>
-        <h1 className="text-2xl font-Bit">
+        <h1 className="lg:text-2xl font-Bit">
           Your most reliable guide to the Dank Memer universe.
         </h1>
       </div>
@@ -43,7 +43,7 @@ const Index = () => {
               width={25}
               height={20}
             />
-            <h1 className="font-Bit text-2xl">Get Started</h1>
+            <h1 className="font-Bit lg:text-2xl">Get Started</h1>
           </Link>
         </div>
         <div className="px-4 py-1 rounded-lg flex items-center bg-[#5562F5]">
@@ -61,7 +61,7 @@ const Index = () => {
               width={30}
               height={20}
             />
-            <h1 className="font-Bit text-2xl">Invite Me</h1>
+            <h1 className="font-Bit lg:text-2xl">Invite Me</h1>
           </a>
         </div>
       </div>
